@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00351B"
-    tools:context=".mvp.LoginFragment">
+    tools:context=".mvp.view.LoginFragment">
 
     <TextView
         android:layout_width="wrap_content"

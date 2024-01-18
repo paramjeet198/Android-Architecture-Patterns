@@ -1,4 +1,4 @@
-package com.example.androidpattern.mvp;
+package com.example.androidpattern.mvp.view;
 
 import android.os.Bundle;
 
@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.example.androidpattern.R;
 import com.example.androidpattern.mvp.model.LoginModel;
 import com.example.androidpattern.mvp.presenter.LoginPresenter;
-import com.example.androidpattern.mvp.view.LoginView;
+import com.example.androidpattern.mvp.presenter.LoginView;
 
 
 public class LoginFragment extends Fragment implements LoginView {

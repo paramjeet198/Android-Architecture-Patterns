@@ -1,6 +1,5 @@
 package com.example.androidpattern.mvp.presenter;
 
-import com.example.androidpattern.mvp.view.LoginView;
 import com.example.androidpattern.mvp.model.LoginModel;
 
 public class LoginPresenter {

@@ -6,12 +6,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
-import com.example.androidpattern.mvp.LoginFragment;
-import com.example.androidpattern.mvp.presenter.LoginPresenter;
-import com.example.androidpattern.mvp.view.LoginView;
-import com.example.androidpattern.mvp.model.LoginModel;
+import com.example.androidpattern.mvp.view.LoginFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,5 +36,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // MVC Pattern:
+    // View: Views like TextView & Buttons etc;
+    // Model: DataModel Class
+    // Controller: Activity/Fragments
+
+    // MVP Pattern:
+    // View: Activity with views;
+    // Model: DataModel Class
+    // Presenter: Presenter Class with its helper contract/view interfaces.
 
 }
